@@ -9,12 +9,10 @@ void main() {
   late GgFakeTimer timer;
 
   // ...........................................................................
-  setUp(
-    () {
-      counter = 0;
-      timer = GgFakeTimer(interval, () => counter++, isPeriodic: false);
-    },
-  );
+  setUp(() {
+    counter = 0;
+    timer = GgFakeTimer(interval, () => counter++, isPeriodic: false);
+  });
 
   group('ggFakeTimer', () {
     // #########################################################################
