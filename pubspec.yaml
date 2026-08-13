@@ -1,14 +1,14 @@
 name: gg_fake_timer
 description: A class faking dart's Timer class. Can be used for test scenarios.
-version: 1.0.5
+version: 1.1.0
 repository: https://github.com/inlavigo/gg_fake_timer
 
 environment:
-  sdk: ">=3.8.0 <4.0.0"
+  sdk: ">=3.13.0 <4.0.0"
 
 # Add regular dependencies here.
 dev_dependencies:
-  args: ^2.4.2
-  gg_capture_print: ^1.0.2
-  lints: ^6.0.0
-  test: ^1.25.0
+  args: ^2.7.0
+  gg_capture_print: ^1.1.0
+  lints: ^6.1.0
+  test: ^1.31.2
