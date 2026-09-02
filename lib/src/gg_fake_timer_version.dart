@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `gg_fake_timer` package.
-const String ggFakeTimerVersion = '1.1.0';
+const String ggFakeTimerVersion = '1.2.0';
